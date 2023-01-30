@@ -37,7 +37,7 @@ public class Sum extends Calculator {
 
 	public String toString() {
 		StringBuilder stb = new StringBuilder();
-		
+
 		stb.append(value1 + " + " + value2 + " = " + calculations());
 
 		return stb.toString();

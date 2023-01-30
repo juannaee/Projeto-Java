@@ -23,6 +23,7 @@ public class Program {
 		System.out.println();
 
 		for (int i = 0; i < number; i++) {
+			System.out.println();
 			System.out.println("Qual calculo você deseja fazer?");
 			System.out.printf("1-Soma%n2-Subtração%n3-Multiplicação");
 			int menu = sc.nextInt();
@@ -49,6 +50,7 @@ public class Program {
 			}
 				break;
 			case 3: {
+				System.out.println();
 				System.out.print("primeiro numero:");
 				Double value1 = sc.nextDouble();
 				System.out.print("Segundo numero:");
